@@ -5,7 +5,6 @@
 conda create -n segtool python=3.8
 conda activate segtool
 pip install -r requirements.txt
-pip install -r requirements-sam.txt
 ```
 ## 1. Dataset
 We provide sample data and support loading  one or two modal data. The sample dataset can be found [here](Data)
