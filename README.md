@@ -39,12 +39,15 @@ pip install -r requirements.txt
 运行程序时需要你本地提供 SAM2 权重文件（`.pt` / `.pth`）。
 程序会根据权重文件名（`tiny/small/base_plus/large`）自动匹配对应配置。
 
-可从官方仓库下载你需要的配置和 checkpoint。
-vit_h: [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
+可从官方仓库下载你需要的配置和 checkpoint:
 
-vit_l: [ViT-l SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
+[sam2.1_hiera_tiny](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_tiny.pt)
 
-vit_b: [ViT-b SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
+[sam2.1_hiera_small](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_small.pt)
+
+[sam2.1_hiera_base_plus](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt)
+
+[sam2.1_hiera_large](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt)
 
 ## 3. 启动软件
 
