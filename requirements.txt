@@ -1,0 +1,12 @@
+numpy
+pillow
+torch
+torchvision
+pyyaml
+tqdm
+huggingface_hub
+opencv-python
+hydra-core
+iopath
+PySide6
+git+https://github.com/facebookresearch/sam2.git
