@@ -1,5 +1,5 @@
 # SpineEndo-Segmentation-Tool
-![Alt text](pics/Tool.png)
+![Alt text](pics/Tool_image.png)
 ## 1. Requirements
 ```
 conda create -n segtool python=3.8
