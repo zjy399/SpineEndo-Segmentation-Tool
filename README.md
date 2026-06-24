@@ -1,6 +1,14 @@
 # SpineEndo-Segmentation-Tool
-
-一个基于 `PySide6 (Qt)` + `SAM2` 的脊柱内镜影像分割标注工具，支持：
+![Alt text](pics/Tool.png)
+## 1. Requirements
+```
+conda create -n segtool python=3.8
+conda activate segtool
+pip install -r requirements.txt
+pip install -r requirements-sam.txt
+```
+## 1. Dataset
+We provide sample data and support loading  one or two modal data. The sample dataset can be found [here](Data)
 
 - 加载常见图像格式：`.png`、`.jpg`、`.jpeg`、`.bmp`、`.tif`、`.tiff`、`.webp`
 - 手动框选提示（Box Prompt）触发分割
@@ -32,6 +40,11 @@ pip install -r requirements.txt
 程序会根据权重文件名（`tiny/small/base_plus/large`）自动匹配对应配置。
 
 可从官方仓库下载你需要的配置和 checkpoint。
+vit_h: [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
+
+vit_l: [ViT-l SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
+
+vit_b: [ViT-b SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
 
 ## 3. 启动软件
 
